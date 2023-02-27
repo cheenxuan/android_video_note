@@ -1,0 +1,3 @@
+rootProject.name = "Hi-library"
+include ':app'
+include ':hilibrary'
