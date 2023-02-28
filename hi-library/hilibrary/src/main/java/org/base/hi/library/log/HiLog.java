@@ -104,6 +104,7 @@ public class HiLog {
         }
         //print logs
         for (HiLogPrinter printer : printers) {
+            System.out.println("------------------ printer:" + printer.getClass().getName());
             printer.print(config, type, tag, sb.toString());
         }
 
