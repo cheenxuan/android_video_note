@@ -10,11 +10,20 @@
         android:id="@+id/btn_log_demo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Log日志模块Demo"
         android:onClick="onClick"
+        android:text="Log日志模块Demo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <org.base.hi.ui.tab.bottom.HiTabBottom
+        android:id="@+id/main_tab_bottom"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
